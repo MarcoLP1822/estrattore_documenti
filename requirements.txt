@@ -1,0 +1,27 @@
+# Dipendenze per il Document Processor
+# ===================================
+
+# Per conversione DOCX -> PDF
+docx2pdf>=0.1.8
+
+# Per integrazione con Microsoft Word (Windows)
+comtypes>=1.1.14
+
+# Per gestione file ODT (OpenDocument Text)
+odfpy>=1.4.1
+
+# Per generazione PDF
+reportlab>=3.6.0
+
+# Per compressione PDF base
+PyPDF2>=3.0.1
+
+# Per compressione PDF avanzata
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+
+# Dipendenze aggiuntive per funzionalità avanzate
+python-docx>=0.8.11
+
+# Dipendenze per gestione file paths e utilità
+pathlib2>=2.3.7; python_version < '3.4'

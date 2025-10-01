@@ -1,4 +1,4 @@
-# 📄 Document Processor
+# 📄 Estrattore Documenti
 
 Un potente script Python per processar📋 Processando: manuale_   📉 PDF ottimizzati: 1rande.pdf
 ✅ Copiato: manuale_grande.pdf -> manuale_grande.pdf
