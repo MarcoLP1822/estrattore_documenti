@@ -48,8 +48,10 @@ try:
 except ImportError:
     ADVANCED_PDF_COMPRESSION = False
 
-# Cartella di destinazione predefinita
-DEFAULT_OUTPUT_FOLDER = r"C:\Users\Youcanprint1\Desktop\files"
+# Cartella di destinazione predefinita (dinamica sul desktop dell'utente)
+import os
+desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+DEFAULT_OUTPUT_FOLDER = os.path.join(desktop_path, "files")
 
 # Dimensione massima file prima della compressione (40MB in bytes)
 MAX_FILE_SIZE = 40 * 1024 * 1024  # 40MB

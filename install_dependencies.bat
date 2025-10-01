@@ -54,7 +54,7 @@ echo ✅ INSTALLAZIONE COMPLETATA CON SUCCESSO!
 echo ================================================
 echo.
 echo 🚀 Ora puoi eseguire il script con:
-echo    python document_processor.py
+echo    python main.py
 echo.
 echo 💡 Il script convertirà automaticamente:
 echo    • File .doc e .docx in PDF
@@ -62,7 +62,7 @@ echo    • File .odt in PDF
 echo    • Copierà tutti i file PDF
 echo    • Comprimerà PDF oltre 40MB
 echo.
-echo 📁 Cartella di destinazione predefinita:
-echo    C:\Users\Youcanprint1\Desktop\files
+echo 📁 Cartella di destinazione:
+echo    Desktop\files (creata automaticamente)
 echo.
 pause

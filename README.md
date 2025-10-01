@@ -1,15 +1,6 @@
 # 📄 Estrattore Documenti
 
-Un potente script Python per processar📋 Processando: manuale_   📉 PDF ottimizzati: 1rande.pdf
-✅ Copiato: manuale_grande.pdf -> manuale_grande.pdf
-⚠️  PDF grande (62.0 MB), ottimizzazione in corso...
-⚠️  PDF non ottimizzabile con metodi base: manuale_grande.pdf (62.0 MB)
-🔄 Tentativo compressione avanzata...
-📉 PDF compresso (avanzato): manuale_grande.pdf
-   📏 Dimensione originale: 62.0 MB
-   📦 Dimensione compressa: 35.4 MB
-   💾 Riduzione: 42.9%
-   ⚠️  Nota: Qualità immagini ridotta per compressionevertire documenti in formato PDF.
+Un potente script Python per processare e convertire documenti in formato PDF.
 
 ## 🎯 Funzionalità
 
@@ -43,7 +34,7 @@ pip install -r requirements.txt
 2. **Incolla il percorso** della cartella contenente i documenti
 
 3. **Lascia che lo script faccia tutto!** 🎉
-   - La destinazione è sempre: `C:\Users\Youcanprint1\Desktop\files`
+   - La destinazione è sempre: `Desktop\files` (creata automaticamente)
 
 ## 📋 Esempio di Utilizzo
 
@@ -54,11 +45,11 @@ pip install -r requirements.txt
 
 📂 Incolla il percorso della cartella con i documenti: C:\MieiDocumenti
 
-📁 Cartella di destinazione: C:\Users\Youcanprint1\Desktop\files
+📁 Cartella di destinazione: Desktop\files (creata automaticamente)
 
 🚀 Avvio processamento...
 🔍 Cercando documenti in: C:\MieiDocumenti
-📁 Cartella di destinazione: C:\Users\Youcanprint1\Desktop\files
+📁 Cartella di destinazione: Desktop\files
 ------------------------------------------------------------
 ✅ Tutte le dipendenze sono disponibili
 ⏭️  Scartato: Quarta di copertina.pdf
@@ -90,7 +81,7 @@ pip install -r requirements.txt
    � PDF compressi: 1
    🔄 File convertiti in PDF: 1
    ❌ Errori: 0
-   📁 Cartella destinazione: C:\Users\Youcanprint1\Desktop\files
+   📁 Cartella destinazione: C:\Users\...\Desktop\files
 ```
 
 ## 🔧 Requisiti di Sistema
@@ -118,7 +109,7 @@ Lo script usa le seguenti librerie Python:
 La cartella di destinazione è sempre:
 
 ```
-C:\Users\Youcanprint1\Desktop\files
+Desktop\files (creata automaticamente sul desktop dell'utente)
 ```
 
 Se vuoi cambiarla, modifica nel file `main.py`:
